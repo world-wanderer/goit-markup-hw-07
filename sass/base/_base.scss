@@ -1,0 +1,36 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  color: #212121;
+  letter-spacing: 0.03em;
+  font-size: 16px;
+}
+.list {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+header {
+  border-bottom: 1px solid #ececec;
+}
+
+img {
+  display: block;
+}
+
+header > .container {
+  display: flex;
+  align-items: center;
+}
+.nav {
+  display: flex;
+  align-items: center;
+}

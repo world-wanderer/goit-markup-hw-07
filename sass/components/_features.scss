@@ -1,0 +1,36 @@
+.features {
+  @extend %section;
+
+  padding-top: 94px;
+}
+.features__item {
+  width: calc((100% - 90px) / 4);
+  margin-right: 30px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.features__icon {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+}
+
+.features__sub-title {
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.features__text {
+  font-size: 14px;
+  line-height: 1.71;
+}

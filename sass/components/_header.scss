@@ -1,0 +1,26 @@
+.authoriz {
+  display: flex;
+  gap: 30px;
+  margin-left: auto;
+}
+.authoriz__link {
+  @include NavAuthLink;
+}
+.authoriz__link {
+  color: var(--text-color);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+.authoriz__link + .authoriz__link {
+  margin-left: 50px;
+}
+
+.authoriz svg {
+  margin-right: 10px;
+}
+.authoriz__svg {
+  fill: currentColor;
+}
