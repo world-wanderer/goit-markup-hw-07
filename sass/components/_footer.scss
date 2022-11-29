@@ -15,9 +15,9 @@
   color: #fff;
   transition: color 250ms var(--timing-function);
 
-  &:hover {
-    color: var(--accent-color);
-  }
+  // &:hover {
+  //   color: var(--accent-color);
+  // }
 }
 
 .footer .logo__span {
@@ -25,10 +25,10 @@
 
   transition: color 250ms var(--timing-function);
 
-  &:hover,
-  &:focus {
-    color: #fff;
-  }
+  // &:hover,
+  // &:focus {
+  //   color: #fff;
+  // }
 }
 
 .adress {

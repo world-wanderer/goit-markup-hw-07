@@ -8,15 +8,15 @@
 
   transition: color 250ms var(--timing-function);
 
-  &:hover {
-    color: var(--accent-color);
-  }
+  // &:hover {
+  //   color: var(--accent-color);
+  // }
 }
 .logo > .logo__span {
   color: var(--accent-color);
 
   transition: color 250ms var(--timing-function);
 }
-.logo__span:hover {
-  color: #000;
-}
+// .logo__span:hover {
+//   color: #000;
+// }

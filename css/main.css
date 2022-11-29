@@ -161,7 +161,7 @@ header > .container {
 .nav__link--current::after {
   position: absolute;
   left: 0;
-  bottom: 0;
+  bottom: -1px;
   content: "";
   display: block;
   width: 100%;
@@ -180,18 +180,11 @@ header > .container {
   -webkit-transition: color 250ms var(--timing-function);
   transition: color 250ms var(--timing-function);
 }
-.logo:hover {
-  color: var(--accent-color);
-}
 
 .logo > .logo__span {
   color: var(--accent-color);
   -webkit-transition: color 250ms var(--timing-function);
   transition: color 250ms var(--timing-function);
-}
-
-.logo__span:hover {
-  color: #000;
 }
 
 .banner {
@@ -717,17 +710,11 @@ textarea {
   -webkit-transition: color 250ms var(--timing-function);
   transition: color 250ms var(--timing-function);
 }
-.footer__logo:hover {
-  color: var(--accent-color);
-}
 
 .footer .logo__span {
   color: var(--accent-color);
   -webkit-transition: color 250ms var(--timing-function);
   transition: color 250ms var(--timing-function);
-}
-.footer .logo__span:hover, .footer .logo__span:focus {
-  color: #fff;
 }
 
 .adress {
