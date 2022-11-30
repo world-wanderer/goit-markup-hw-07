@@ -610,7 +610,7 @@ textarea {
           justify-content: center;
 }
 
-.link-svg {
+.icons__link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -627,10 +627,10 @@ textarea {
   -webkit-transition: background-color 250ms var(--timing-function);
   transition: background-color 250ms var(--timing-function);
 }
-.link-svg:hover, .link-svg:focus {
+.icons__link:hover, .icons__link:focus {
   background-color: var(--accent-color);
 }
-.link-svg:hover svg, .link-svg:focus svg {
+.icons__link:hover svg, .icons__link:focus svg {
   fill: #fff;
 }
 
@@ -651,14 +651,14 @@ textarea {
   text-align: center;
 }
 
-.clients-list {
+.clients__list {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   gap: 30px;
 }
 
-.clients-link {
+.clients__link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -675,14 +675,14 @@ textarea {
   -webkit-transition: border 250ms var(--timing-function);
   transition: border 250ms var(--timing-function);
 }
-.clients-link:hover, .clients-link:focus {
+.clients__link:hover, .clients__link:focus {
   border: 1px solid var(--accent-color);
 }
-.clients-link:hover svg, .clients-link:focus svg {
+.clients__link:hover svg, .clients__link:focus svg {
   fill: var(--accent-color);
 }
 
-.svg-item {
+.clients__svg {
   fill: #afb1b8;
   -webkit-transition: fill 250ms var(--timing-function);
   transition: fill 250ms var(--timing-function);
@@ -746,14 +746,14 @@ textarea {
   gap: 10px;
 }
 
-.footer .link-svg {
+.footer .icons__link {
   width: 44px;
   height: 44px;
   background-color: rgba(255, 255, 255, 0.1);
   -webkit-transition: background-color 250ms var(--timing-function);
   transition: background-color 250ms var(--timing-function);
 }
-.footer .link-svg:hover, .footer .link-svg:focus {
+.footer .icons__link:hover, .footer .icons__link:focus {
   background-color: var(--accent-color);
 }
 

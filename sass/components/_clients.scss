@@ -8,11 +8,11 @@
   @include SubTitle;
 }
 
-.clients-list {
+.clients__list {
   justify-content: center;
   gap: 30px;
 }
-.clients-link {
+.clients__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -32,7 +32,7 @@
     fill: var(--accent-color);
   }
 }
-.svg-item {
+.clients__svg {
   fill: #afb1b8;
 
   transition: fill 250ms var(--timing-function);
